@@ -2,6 +2,7 @@
     "version": "0.1.11",
     "description": "Yet Another Genshin Impact Scanner",
     "homepage": "https://github.com/wormtql/yas",
+    "license": "Unknown",
     "url": "https://github.com/wormtql/yas/releases/download/v0.1.11/yas_v0.1.11.exe",
     "hash": "0cdc75905dd05612eb6fda688b5f9250d4aed58bb2443d9047ddd3a30939dc24",
     "bin": [[ "yas_v0.1.11.exe", "yas" , "--min-level 20 --min-star 5" ]],
