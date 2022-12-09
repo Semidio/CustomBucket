@@ -11,6 +11,6 @@
     },
     "autoupdate": {
         "url": "https://github.com/wormtql/yas/releases/download/v$version/yas_v$version.exe",
-        "bin": [[ "yas_v$version.exe", "yas" ]],
+        "bin": [[ "yas_v$version.exe", "yas" ]]
     }
 }
