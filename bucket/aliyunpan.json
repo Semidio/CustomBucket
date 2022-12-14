@@ -1,0 +1,27 @@
+{
+    "version": "0.2.4",
+    "description": "Aliyundrive unofficial CLI client",
+    "homepage": "https://github.com/tickstep/aliyunpan",
+    "license": "Apache-2.0",
+    "url": "https://github.com/tickstep/aliyunpan/releases/download/v0.2.4/aliyunpan-v0.2.4-windows-x64.zip",
+    "persist": [
+        "aliyunpan_config.json",
+        "aliyunpan_command_history.txt",
+        "plugin",
+        "sync_drive"
+    ],
+    "installer": {
+        "script": [
+            "Move-Item \"$dir\\aliyunpan-v$version-windows-x64\\*\" $dir",
+            "Remove-Item \"$dir\\aliyunpan-v$version-windows-x64\\\""
+        ]
+    },
+    "hash": "58d26c5d3ab644d60677c236654c3ff1669c7b1d8dd100351d3df774ff5dac1b",
+    "bin": "aliyunpan.exe",
+    "checkver": {
+        "github": "https://github.com/tickstep/aliyunpan"
+    },
+    "autoupdate": {
+        "url": "https://github.com/tickstep/aliyunpan/releases/download/v$version/aliyunpan-v$version-windows-x64.zip",
+    }
+}
