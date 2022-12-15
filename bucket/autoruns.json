@@ -23,8 +23,7 @@
             "shortcuts": [
                 [
                     "Autoruns64.exe",
-                    "SysInternals/Autoruns",
-                    "/accepteula"
+                    "SysInternals/Autoruns"
                 ]
             ]
         },
