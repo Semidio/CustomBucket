@@ -8,12 +8,7 @@
         "appsettings.json",
         "Logs"
     ],
-    "installer": {
-        "script": [
-            "Move-Item \"$dir\\dotnet-dependent\\*\" $dir",
-            "Remove-Item \"$dir\\dotnet-dependent\\\""
-        ]
-    },
+    "extract_dir": "dotnet-dependent",
     "hash": "3117068ed9ade7b35ba8f5df7bfe63c2a1999c24eba30fdc42cf98864e484a40",
     "checkver": {
         "github": "https://github.com/RayWangQvQ/BiliBiliToolPro"
