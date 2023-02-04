@@ -1,10 +1,10 @@
 {
-    "version": "1.2.11",
+    "version": "1.2.12",
     "description": "把txt文本转成epub和mobi电子书的命令行工具",
     "homepage": "https://github.com/wormtql/yas",
     "license": "MulanPSL",
-    "url": "https://github.com/ystyle/kaf-cli/releases/download/v1.2.11/kaf-cli_v1.2.11_windows_amd64.zip",
-    "hash": "97e2f6d446f9676d3cceac25327b20105699c18979c709ee9671ba24cf46a2f0",
+    "url": "https://github.com/ystyle/kaf-cli/releases/download/v1.2.12/kaf-cli_v1.2.12_windows_amd64.zip",
+    "hash": "d91dd1e6c5cd7daa87955399c670757cc39006693f0170a901f22822bab086d7",
     "bin": [
         "kaf-cli.exe",
         "kindlegen.exe"
