@@ -1,15 +1,15 @@
 {
-    "version": "0.4.3",
+    "version": "0.4.6",
     "description": "B 站（bilibili）自动任务工具",
     "homepage": "https://github.com/RayWangQvQ/BiliBiliToolPro",
     "license": "MIT",
-    "url": "https://github.com/RayWangQvQ/BiliBiliToolPro/releases/download/0.4.3/bilibili-tool-pro-v0.4.3-dotnet-dependent.zip",
+    "url": "https://github.com/RayWangQvQ/BiliBiliToolPro/releases/download/0.4.6/bilibili-tool-pro-v0.4.6-dotnet-dependent.zip",
     "persist": [
         "appsettings.json",
         "Logs"
     ],
     "extract_dir": "dotnet-dependent",
-    "hash": "1f845e380e328cf466c4ec0514be847bb2379b2d7bf91a4f3db68fbf56d84f2f",
+    "hash": "4d8a45dcf054666efac1d4ff95a41a9062642003dba4be9f818800740593e76b",
     "checkver": {
         "github": "https://github.com/RayWangQvQ/BiliBiliToolPro"
     },
