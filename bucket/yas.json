@@ -1,16 +1,26 @@
 {
-    "version": "0.1.11",
+    "version": "0.1.13",
     "description": "Yet Another Genshin Impact Scanner",
     "homepage": "https://github.com/wormtql/yas",
     "license": "Unknown",
-    "url": "https://github.com/wormtql/yas/releases/download/v0.1.11/yas_v0.1.11.exe",
-    "hash": "0cdc75905dd05612eb6fda688b5f9250d4aed58bb2443d9047ddd3a30939dc24",
-    "bin": [[ "yas_v0.1.11.exe", "yas" ]],
+    "url": "https://github.com/wormtql/yas/releases/download/v0.1.13/yas_v0.1.13.exe",
+    "hash": "54d4df2fdcc756a24edf603ccb64ebde3fc1201adde650d0584df248d7839d06",
+    "bin": [
+        [
+            "yas_v0.1.13.exe",
+            "yas"
+        ]
+    ],
     "checkver": {
         "github": "https://github.com/wormtql/yas"
     },
     "autoupdate": {
         "url": "https://github.com/wormtql/yas/releases/download/v$version/yas_v$version.exe",
-        "bin": [[ "yas_v$version.exe", "yas" ]]
+        "bin": [
+            [
+                "yas_v$version.exe",
+                "yas"
+            ]
+        ]
     }
 }
