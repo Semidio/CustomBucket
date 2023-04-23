@@ -6,6 +6,7 @@
     "url": "https://github.com/RayWangQvQ/BiliBiliToolPro/releases/download/1.0.3/bilibili-tool-pro-v1.0.3-win-x64.zip",
     "persist": [
         "appsettings.json",
+        "cookies.json",
         "Logs"
     ],
     "extract_dir": "win-x64",
