@@ -1,10 +1,10 @@
 {
-    "version": "1.0.7",
+    "version": "1.0.8",
     "description": "Background Muter - Automatically Mute Background Applications",
     "homepage": "https://github.com/nefares/Background-Muter",
     "license": "GPL-3.0",
-    "url": "https://github.com/nefares/Background-Muter/releases/download/v1.0.7/WinBGMuter.zip",
-    "hash": "481fa95ebfa344c167855af9c9358a9e600764bfb67bfba7b40a26821383aa89",
+    "url": "https://github.com/nefares/Background-Muter/releases/download/v1.0.8/WinBGMuter.zip",
+    "hash": "05490a38a9ffccc2831ec09d81d990662050356a274fa780edd1750df76e7a13",
     "bin": "WinBGMuter.exe",
     "shortcuts": [
         [
