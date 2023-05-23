@@ -1,16 +1,16 @@
 {
-    "version": "1.0.3",
+    "version": "2.0.0",
     "description": "B 站（bilibili）自动任务工具",
     "homepage": "https://github.com/RayWangQvQ/BiliBiliToolPro",
     "license": "MIT",
-    "url": "https://github.com/RayWangQvQ/BiliBiliToolPro/releases/download/1.0.3/bilibili-tool-pro-v1.0.3-win-x64.zip",
+    "url": "https://github.com/RayWangQvQ/BiliBiliToolPro/releases/download/2.0.0/bilibili-tool-pro-v2.0.0-win-x64.zip",
     "persist": [
         "appsettings.json",
         "cookies.json",
         "Logs"
     ],
     "extract_dir": "win-x64",
-    "hash": "4aa8f7ce6ca9d618b1483e0e6b8032ed2d14a0b51235a1a9af81db0c0da0d2ac",
+    "hash": "826556d51da68cc96b9cec148749ae68b0c7a8bd465b7fbe58d474a574da8058",
     "checkver": {
         "github": "https://github.com/RayWangQvQ/BiliBiliToolPro"
     },
