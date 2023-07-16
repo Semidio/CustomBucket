@@ -1,11 +1,11 @@
 {
-    "version": "4.1.3",
+    "version": "4.1.4",
     "description": "go-musicfox是用Go写的又一款网易云音乐命令行客户端",
     "homepage": "https://github.com/go-musicfox/go-musicfox",
     "license": "MIT",
-    "url": "https://github.com/go-musicfox/go-musicfox/releases/download/v4.1.3/go-musicfox_4.1.3_windows_amd64.zip",
-    "extract_dir": "go-musicfox_4.1.3_windows_amd64",
-    "hash": "bc3f5634492b5b302f3e1ab3e16b160a298fad3765d07283369dd9e0e0284085",
+    "url": "https://github.com/go-musicfox/go-musicfox/releases/download/v4.1.4/go-musicfox_4.1.4_windows_amd64.zip",
+    "extract_dir": "go-musicfox_4.1.4_windows_amd64",
+    "hash": "664a5129d3902c8df446be6175299b9f80f14a0e2444eb17eef581e34c034722",
     "bin": "musicfox.exe",
     "checkver": {
         "github": "https://github.com/go-musicfox/go-musicfox"
