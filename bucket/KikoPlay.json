@@ -17,6 +17,6 @@
     },
     "persist": "data",
     "autoupdate": {
-        "url": "https://github.com/KikoPlayProject/KikoPlay/releases/download/$version/$version.zip"
+        "url": "https://github.com/KikoPlayProject/KikoPlay/releases/download/$version/$version.7z"
     }
 }
