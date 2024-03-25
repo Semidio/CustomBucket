@@ -1,9 +1,9 @@
 {
-    "version": "2024.3.9.0",
+    "version": "2024.3.25.0",
     "description": "HDoujin Downloader is a manga and dōjinshi download manager supporting 800+ websites across many different languages.",
     "homepage": "https://github.com/HDoujinDownloader/HDoujinDownloader",
     "license": "Closed source",
-    "url": "https://github.com/HDoujinDownloader/HDoujinDownloader/releases/download/v2024.3.9.0/HDoujin.Downloader-2024.3.9.0-win.zip",
+    "url": "https://github.com/HDoujinDownloader/HDoujinDownloader/releases/download/v2024.3.25.0/HDoujin.Downloader-2024.3.25.0-win.zip",
     "persist": [
         "favicons",
         "plugins",
@@ -15,7 +15,7 @@
         "logins.dat",
         "queue.manga"
     ],
-    "hash": "ddff137f82994a10d7ed635540b6c11fec440300e804c6c1202badaab38d5ceb",
+    "hash": "511fdb0545e128d280125f79f820af1d43bbda5a6e8c527643c18eef811aa3ea",
     "bin": "HDoujin Downloader.exe",
     "shortcuts": [
         [
