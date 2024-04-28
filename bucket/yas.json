@@ -7,7 +7,7 @@
     "hash": "89af329072b2031a1e3877f3c99ec9e9e1fd9fbb6ec30a950f7dd34c032503cd",
     "bin": [
         [
-            "yas_v0.1.15.exe",
+            "yas_v_0.1.15.exe",
             "yas"
         ]
     ],
@@ -15,10 +15,10 @@
         "github": "https://github.com/wormtql/yas"
     },
     "autoupdate": {
-        "url": "https://github.com/wormtql/yas/releases/download/v$version/yas_v$version.exe",
+        "url": "https://github.com/wormtql/yas/releases/download/v$version/yas_v_$version.exe",
         "bin": [
             [
-                "yas_v$version.exe",
+                "yas_v_$version.exe",
                 "yas"
             ]
         ]
