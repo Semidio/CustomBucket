@@ -4,6 +4,15 @@
     "homepage": "https://github.com/HDoujinDownloader/HDoujinDownloader",
     "license": "Closed source",
     "url": "https://github.com/HDoujinDownloader/HDoujinDownloader/releases/download/v2024.3.25.0/HDoujin.Downloader-2024.3.25.0-win.zip",
+    "pre_install": [
+        "    # Set Configs for all executables",
+        "foreach ($f in @('backup.manga', 'bookmarks.dat', 'config.ini', 'logins.dat', 'queue.manga')) {",
+        "    if (-not (Test-Path \"$persist_dir\\$f\")) {",
+        "        Write-Host 'File' $f 'does not exists. Creating' -f Yellow",
+        "        Set-Content \"$dir\\$f\" $CONT -Encoding Ascii",
+        "    }",
+        "}"
+    ],
     "persist": [
         "favicons",
         "plugins",

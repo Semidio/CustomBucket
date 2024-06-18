@@ -5,6 +5,15 @@
     "license": "MIT",
     "url": "https://github.com/Scighost/Starward/releases/download/0.11.6/Starward_Portable_0.11.6_x64.7z",
     "extract_dir": "Starward",
+    "pre_install": [
+        "    # Set Configs for all executables",
+        "foreach ($f in @('config.ini', 'StarwardDatabase.db')) {",
+        "    if (-not (Test-Path \"$persist_dir\\$f\")) {",
+        "        Write-Host 'File' $f 'does not exists. Creating' -f Yellow",
+        "        Set-Content \"$dir\\$f\" $CONT -Encoding Ascii",
+        "    }",
+        "}"
+    ],
     "persist": [
         "config.ini",
         "StarwardDatabase.db",

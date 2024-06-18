@@ -35,6 +35,15 @@
             ]
         }
     },
+    "pre_install": [
+        "    # Set Configs for all executables",
+        "foreach ($f in @('cpuz.ini')) {",
+        "    if (-not (Test-Path \"$persist_dir\\$f\")) {",
+        "        Write-Host 'File' $f 'does not exists. Creating' -f Yellow",
+        "        Set-Content \"$dir\\$f\" $CONT -Encoding Ascii",
+        "    }",
+        "}"
+    ],
     "persist": "cpuz.ini",
     "checkver": "Version ([\\d.]+) for windows",
     "autoupdate": {

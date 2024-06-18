@@ -6,6 +6,15 @@
     "description": "ChromeCookiesView is an alternative to the standard internal cookies viewer of Google Chrome Web browser. it displays the list of all cookies stored by Google Chrome Web browser, and allows you to easily delete unwanted cookies. It also allows you export the cookies into text/csv/html/xml file. For every cookie, the following information is displayed: Host Name, Path, Name, Value, Secure (Yes/No), HTTP Only Cookie (Yes/No), Last Accessed Time, Creation Time, Expiration Time.",
     "url": "https://www.nirsoft.net/utils/chromecookiesview.zip",
     "hash": "d8555fcd69243037decf6b7d7b0b0d8d083477946236ccae78f485311f53e811",
+    "pre_install": [
+        "    # Set Configs for all executables",
+        "foreach ($f in @('ChromeCookiesView.cfg', 'chromecookiesview_lng.ini')) {",
+        "    if (-not (Test-Path \"$persist_dir\\$f\")) {",
+        "        Write-Host 'File' $f 'does not exists. Creating' -f Yellow",
+        "        Set-Content \"$dir\\$f\" $CONT -Encoding Ascii",
+        "    }",
+        "}"
+    ],
     "persist": [
         "ChromeCookiesView.cfg",
         "chromecookiesview_lng.ini"
