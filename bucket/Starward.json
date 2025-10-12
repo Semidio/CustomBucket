@@ -1,9 +1,9 @@
 {
-    "version": "0.15.3",
+    "version": "0.15.4",
     "description": "Game Launcher for miHoYo - 米家游戏启动器",
     "homepage": "https://github.com/Scighost/Starward",
     "license": "MIT",
-    "url": "https://github.com/Scighost/Starward/releases/download/0.15.3/Starward_Portable_0.15.3_x64.7z",
+    "url": "https://github.com/Scighost/Starward/releases/download/0.15.4/Starward_Portable_0.15.4_x64.7z",
     "extract_dir": "Starward",
     "pre_install": [
         "    # Set Configs for all executables",
@@ -25,7 +25,7 @@
             "Starward"
         ]
     ],
-    "hash": "7b8bcaa2426b28c47ebeeb9052f467aebdf1d35ea0722e7415cba1205dc9779a",
+    "hash": "72190c33f5b985c0dfd265854acf67d1ff0bb7fee9b75dec4985250791cf3d89",
     "bin": "Starward.exe",
     "checkver": {
         "github": "https://github.com/Scighost/Starward"
