@@ -1,11 +1,11 @@
 {
     "homepage": "https://www.nirsoft.net/utils/chrome_cookies_view.html",
     "checkver": "ChromeCookiesView v(\\d+\\.\\d\\d)",
-    "version": "1.83",
+    "version": "1.84",
     "license": "freeware",
     "description": "ChromeCookiesView is an alternative to the standard internal cookies viewer of Google Chrome Web browser. it displays the list of all cookies stored by Google Chrome Web browser, and allows you to easily delete unwanted cookies. It also allows you export the cookies into text/csv/html/xml file. For every cookie, the following information is displayed: Host Name, Path, Name, Value, Secure (Yes/No), HTTP Only Cookie (Yes/No), Last Accessed Time, Creation Time, Expiration Time.",
     "url": "https://www.nirsoft.net/utils/chromecookiesview.zip",
-    "hash": "7f68007657b3b04f9e9a9d5638450f4111b8a16b3642c8d356c18ff6d213cefc",
+    "hash": "e685f4b906f265b983c59f8c541f0a91805d6c1347edf34e59687eb66f238a92",
     "pre_install": [
         "    # Set Configs for all executables",
         "foreach ($f in @('ChromeCookiesView.cfg', 'chromecookiesview_lng.ini')) {",
