@@ -1,12 +1,12 @@
 {
-    "version": "1.4.0",
+    "version": "1.4.1",
     "description": "Translate full-length books and documents with AI (Ollama, OpenAI, Gemini, etc). Preserves formatting. Resumes where you left off. No file size limits.",
     "homepage": "https://github.com/hydropix/TranslateBooksWithLLMs",
     "license": "AGPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hydropix/TranslateBooksWithLLMs/releases/download/v1.4.0/TranslateBook-Windows.zip",
-            "hash": "64d19ddfd3dc0ca3b057239eaa697c154c8766a525d3dac67b26f5f9f71f52e1"
+            "url": "https://github.com/hydropix/TranslateBooksWithLLMs/releases/download/v1.4.1/TranslateBook-Windows.zip",
+            "hash": "53772f36a758d92a96ec5638346c6f66710eafccffb4fd2f5b68a16c73af10ac"
         }
     },
     "bin": "TranslateBook.exe",
