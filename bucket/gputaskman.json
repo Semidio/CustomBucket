@@ -1,18 +1,18 @@
 {
-    "version": "0.3.3",
+    "version": "0.3.4",
     "description": "A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows AMD and NVIDIA).",
     "homepage": "https://github.com/shanselman/gputaskman",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/shanselman/gputaskman/releases/download/v0.3.3/gputaskman-0.3.3-windows-x64.zip",
-            "hash": "06b4073c222593281fcd31abb0c2c408d0242062e8c963892dbf0d4c5403c196",
-            "extract_dir": "gputaskman-0.3.3-windows-x64"
+            "url": "https://github.com/shanselman/gputaskman/releases/download/v0.3.4/gputaskman-0.3.4-windows-x64.zip",
+            "hash": "5e9fbedd6cb89e9356d9cf98c3a9c7873283d0c4e840109fb4d5cdf5c8e205f9",
+            "extract_dir": "gputaskman-0.3.4-windows-x64"
         },
         "arm64": {
-            "url": "https://github.com/shanselman/gputaskman/releases/download/v0.3.3/gputaskman-0.3.3-windows-arm64.zip",
-            "hash": "f6ef4370390bdb537bffa5945b00ed3eaf2127675301b1263d91bc77150d330a",
-            "extract_dir": "gputaskman-0.3.3-windows-arm64"
+            "url": "https://github.com/shanselman/gputaskman/releases/download/v0.3.4/gputaskman-0.3.4-windows-arm64.zip",
+            "hash": "d4b46acb4ed99d3f69fa0bbd95368479e164ee239cf2fa1efddc75485542383a",
+            "extract_dir": "gputaskman-0.3.4-windows-arm64"
         }
     },
     "bin": "gputaskman.exe",
