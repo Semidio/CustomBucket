@@ -6,6 +6,7 @@
     "url": "https://github.com/SAOG0721/Magpie/releases/download/v0.6.12-experimental/Magpie-Experimental-x64.zip",
     "hash": "d471f6a3ce4d4e7097464cfaae1f7697e26d9bb336d9f952bb4cbdc8f42d0038",
     "extract_dir": "Magpie-Experimental-x64",
+    "persist": "config",
     "bin": "Magpie.exe",
     "shortcuts": [
         [
