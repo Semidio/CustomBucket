@@ -1,0 +1,43 @@
+{
+    "version": "0.6.3",
+    "description": "A lightweight Calibre alternative",
+    "homepage": "https://dalibre.randynamic.org/",
+    "license": "GPL-3.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/djyde/dalibre/releases/download/v0.6.3/dalibre-setup-0.6.3-amd64.exe#/dl.7z",
+            "hash": "3e7728a08ff4be8586c26beaa656a3ecd5ddd9590cec892d4bb4a6977f1b131d"
+        },
+        "arm64": {
+            "url": "https://github.com/djyde/dalibre/releases/download/v0.6.3/dalibre-setup-0.6.3-arm64.exe#/dl.7z",
+            "hash": "7c861bc1e0556f9e14e493787ed7b1a4926f15227409198dc758ce96702ae50f"
+        }
+    },
+    "bin": "Dalibre.exe",
+    "shortcuts": [
+        [
+            "Dalibre.exe",
+            "Dalibre"
+        ]
+    ],
+    "pre_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse -Force -ErrorAction SilentlyContinue",
+    "checkver": {
+        "github": "https://github.com/djyde/dalibre"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/djyde/dalibre/releases/download/v$version/dalibre-setup-$version-amd64.exe#/dl.7z",
+                "hash": {
+                    "mode": "github"
+                }
+            },
+            "arm64": {
+                "url": "https://github.com/djyde/dalibre/releases/download/v$version/dalibre-setup-$version-arm64.exe#/dl.7z",
+                "hash": {
+                    "mode": "github"
+                }
+            }
+        }
+    }
+}
