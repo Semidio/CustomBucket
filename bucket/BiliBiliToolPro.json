@@ -24,6 +24,9 @@
         "github": "https://github.com/RayWangQvQ/BiliBiliToolPro"
     },
     "autoupdate": {
-        "url": "https://github.com/RayWangQvQ/BiliBiliToolPro/releases/download/$version/bilibili-tool-pro-v$version-win-x64.zip"
+        "url": "https://github.com/RayWangQvQ/BiliBiliToolPro/releases/download/$version/bilibili-tool-pro-v$version-win-x64.zip",
+        "hash": {
+            "mode": "github"
+        }
     }
 }

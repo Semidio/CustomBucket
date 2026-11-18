@@ -25,16 +25,14 @@
                 "url": "https://github.com/shanselman/gputaskman/releases/download/v$version/gputaskman-$version-windows-x64.zip",
                 "extract_dir": "gputaskman-$version-windows-x64",
                 "hash": {
-                    "url": "https://github.com/shanselman/gputaskman/releases/download/v$version/gputaskman-$version-windows-x64.zip.sha256",
-                    "regex": "^([a-fA-F0-9]{64})\\s+"
+                    "mode": "github"
                 }
             },
             "arm64": {
                 "url": "https://github.com/shanselman/gputaskman/releases/download/v$version/gputaskman-$version-windows-arm64.zip",
                 "extract_dir": "gputaskman-$version-windows-arm64",
                 "hash": {
-                    "url": "https://github.com/shanselman/gputaskman/releases/download/v$version/gputaskman-$version-windows-arm64.zip.sha256",
-                    "regex": "^([a-fA-F0-9]{64})\\s+"
+                    "mode": "github"
                 }
             }
         }

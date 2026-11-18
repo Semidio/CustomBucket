@@ -16,6 +16,9 @@
         "github": "https://github.com/nefares/Background-Muter"
     },
     "autoupdate": {
-        "url": "https://github.com/nefares/Background-Muter/releases/download/v$version/WinBGMuter.zip"
+        "url": "https://github.com/nefares/Background-Muter/releases/download/v$version/WinBGMuter.zip",
+        "hash": {
+            "mode": "github"
+        }
     }
 }

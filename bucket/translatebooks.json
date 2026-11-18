@@ -21,7 +21,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/hydropix/TranslateBooksWithLLMs/releases/download/v$version/TranslateBook-Windows.zip"
+                "url": "https://github.com/hydropix/TranslateBooksWithLLMs/releases/download/v$version/TranslateBook-Windows.zip",
+                "hash": {
+                    "mode": "github"
+                }
             }
         }
     }
