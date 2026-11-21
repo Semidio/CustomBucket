@@ -1,0 +1,33 @@
+{
+    "version": "0.1.0",
+    "description": "A lightweight Calibre alternative",
+    "homepage": "https://github.com/HustThulium/mihoyo_xuntu",
+    "license": "GPL-3.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/HustThulium/mihoyo_xuntu/releases/download/v0.1.0/RouteOverlay-v0.1.0-windows-x64.zip",
+            "hash": "48e350fa0c83a993335ab702325ff3afcdf7725b84306d7273de9ef5515ac17c"
+        }
+    },
+    "extract_dir": "RouteOverlay",
+    "bin": "RouteOverlay.exe",
+    "shortcuts": [
+        [
+            "RouteOverlay.exe",
+            "循图"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/HustThulium/mihoyo_xuntu"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/HustThulium/mihoyo_xuntu/releases/download/v$version/RouteOverlay-v$version-windows-x64.zip",
+                "hash": {
+                    "mode": "github"
+                }
+            }
+        }
+    }
+}
